@@ -1,0 +1,38 @@
+prefix: "&9[Minevia]"
+
+threshold: 100
+
+vl-decay:
+  enabled: true
+  amount: 2
+  every-seconds: 15
+
+checks:
+  fly:
+    enabled: true
+    add-vl: 8
+
+  speed:
+    enabled: true
+    add-vl: 5
+
+  autoclicker:
+    enabled: true
+    add-vl: 4
+    max-cps: 22
+
+  badpitch:
+    enabled: true
+    add-vl: 20
+
+  reach:
+    enabled: true
+    add-vl: 8
+    max-distance: 3.65
+
+grace:
+  join-ms: 3000
+  teleport-ms: 1500
+  velocity-ms: 1200
+
+kick-message: "&cMinevia\n\n&7You were kicked for repeated anticheat flags."
